@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1069316973323",
-    "firebase_url": "https://mnnit-e-community.firebaseio.com",
-    "project_id": "mnnit-e-community",
-    "storage_bucket": "mnnit-e-community.appspot.com"
+    "project_number": "762801198529",
+    "firebase_url": "https://mnnitecommunity-app.firebaseio.com",
+    "project_id": "mnnitecommunity-app",
+    "storage_bucket": "mnnitecommunity-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1069316973323:android:36e8b429b957924b6d380e",
+        "mobilesdk_app_id": "1:762801198529:android:4a6d95d9796acac10a0b40",
         "android_client_info": {
           "package_name": "com.arsenal.mnnite_community"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1069316973323-s2dn72e43141e7haj29tf8vuhduoq5jr.apps.googleusercontent.com",
+          "client_id": "762801198529-ci34bo6hm8c7c327vphsr78m276m40rp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCyYwsfWm8uDYZpRzEzPKxoQNQT6qcMIPA"
+          "current_key": "AIzaSyD413Z9mOSZ1RJodsCXjIvTuCaUXoNRK7c"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1069316973323-s2dn72e43141e7haj29tf8vuhduoq5jr.apps.googleusercontent.com",
+              "client_id": "762801198529-ci34bo6hm8c7c327vphsr78m276m40rp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

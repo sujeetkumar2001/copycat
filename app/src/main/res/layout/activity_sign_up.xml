@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="#e6e6ff">
+
+    <TextView
+        android:id="@+id/TxtVwSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EdtTxtName"
+        android:layout_width="366dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Your Name "
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtVwSignUp"
+
+        />
+
+    <EditText
+        android:id="@+id/EdtTxtUsername"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Username"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtName"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtName" />
+
+    <EditText
+        android:id="@+id/EdtTxtEmail"
+        android:layout_width="363dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your Email"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtUsername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtUsername"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtUsername" />
+
+    <EditText
+        android:id="@+id/EdtTxtPassword"
+        android:layout_width="361dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Password"
+        android:textSize="20dp"
+        android:password="true"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtEmail"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtEmail" />
+
+    <EditText
+        android:id="@+id/EdtTxtRegNo"
+        android:layout_width="361dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Reg No"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtPassword"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtPassword" />
+
+    <EditText
+        android:id="@+id/EdtTxtYear"
+        android:layout_width="361dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Your Year"
+        android:textSize="20dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtRegNo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtRegNo"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtRegNo" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Sign Up"
+        android:textSize="30dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtYear"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtYear"
+        app:layout_constraintTop_toBottomOf="@+id/EdtTxtYear" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

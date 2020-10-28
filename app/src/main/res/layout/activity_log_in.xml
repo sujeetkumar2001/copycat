@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:background="#e6e6ff"
+    >
+
+    <TextView
+        android:id="@+id/TxtLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Log In"
+        android:textSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/EdtTxtEmail"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="124dp"
+        android:hint="Email"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtLogIn"></EditText>
+
+    <EditText
+        android:id="@+id/EdtTxtPassword"
+        android:layout_width="333dp"
+        android:layout_height="63dp"
+
+
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="300dp"
+        android:hint="Password"
+        android:password="true"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/EdtTxtEmail"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/EdtTxtEmail"></EditText>
+
+    <Button
+        android:layout_width="133dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="156dp"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:id="@+id/btnLogIn"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
